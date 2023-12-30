@@ -1,0 +1,71 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: #284135;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  width: 43%;
+  max-width: 500px;
+  font-family: var(--font-canela);
+  font-size: 200px;
+  font-weight: 500;
+
+  @media screen and (max-width: 1200px) {
+    width: 60%;
+    font-size: 20vw; 
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 70%;
+    font-size: 30vw; 
+  }
+}
+
+.paragraph {
+  padding: 100px 20px;
+  margin: auto;
+  margin-left: 50px;
+  max-width: 500px;
+  font-size: 18px;
+  font-family: var(--font-fg);
+
+  @media screen and (min-width: 600px) {
+    margin-left: 100px;
+  }
+}
+
+.paragraph span {
+  display: block;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: var(--font-canela);
+}
+
+.paragraph p {
+  line-height: 150%;
+}
+
+.heading * {
+  position: relative;
+}
+
+.heading *:first-child {
+  font-size: 50%;
+  z-index: 1;
+}
+
+.tree {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotateX(-180deg) rotateZ(-125deg) scale(2.0);
+}
