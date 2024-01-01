@@ -38,6 +38,9 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --color-bg: #f3f2f1;
+  --color-font: #284135;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,12 +86,11 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  color: #284135;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: #f3f2f1;
+  background: var(--color-bg);
+  color: var(--color-font);
 }
 
 a {
