@@ -1,0 +1,23 @@
+.reception {
+  position: relative;
+}
+
+.reception-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.reception h2 {
+  margin: 0 auto;
+  font-size: 120px;
+  font-family: var(--font-canela);
+  max-width: 40%;
+  text-align: center;
+}
+
+.reception-title {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
