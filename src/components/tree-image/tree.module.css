@@ -1,0 +1,27 @@
+
+.tree-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.tree {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotateX(-180deg) rotateZ(-125deg) scale(2.0);
+}
+
+@media screen and (max-width: 700px) {
+  .image {
+    right: -50px;
+    transform: rotateX(-180deg) rotateZ(-125deg) scale(1.4);
+  }
+}

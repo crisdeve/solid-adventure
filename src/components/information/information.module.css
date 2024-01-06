@@ -1,0 +1,33 @@
+.information {
+  width: 90%;
+  max-width: 320px;
+}
+
+.title {
+  display: block;
+  font-size: 50px;
+  font-family: var(--font-canela);
+}
+
+.title::after {
+  margin-top: 20px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 6px;
+  background-color: #c3c2c0;
+}
+
+.paragraph1 {
+  margin-top: 20px;
+  display: block;
+  color: #999790;
+  line-height: 200%;
+}
+
+.paragraph2 {
+  margin-top: 20px;
+  display: block;
+  font-size: 25px;
+  font-weight: 200;
+}

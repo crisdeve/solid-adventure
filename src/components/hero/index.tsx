@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import styles from './hero.module.css';
-import treeSvg from '../../assets/principal-tree-wedding-bg0.svg'
+import TreeImage from '../tree-image';
 
 export default function Hero() {
   return (
@@ -17,13 +16,7 @@ export default function Hero() {
         <span>Nuestra</span>
         <span>Boda.</span>
       </h1>
-      <Image
-        className={styles.tree}
-        src={treeSvg}
-        alt="Picture of the author"
-        width={500}
-        height={500}
-      />
+      <TreeImage />
     </section>
   )
 }

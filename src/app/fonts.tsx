@@ -1,8 +1,9 @@
 import localFont from 'next/font/local'
+import { Inter } from 'next/font/google'
 
-export const fg = localFont({
-  variable: '--font-fg',
-  src: '../assets/FoundersGrotesk-Medium.woff2'
+export const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter', 
 })
 
 export const canela = localFont({

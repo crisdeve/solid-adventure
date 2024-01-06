@@ -5,19 +5,57 @@
 .reception-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 70px;
 }
 
 .reception h2 {
   margin: 0 auto;
-  font-size: 120px;
+  font-size: 10vw;
   font-family: var(--font-canela);
-  max-width: 40%;
+  width: 40%;
+  max-width: 550px;
   text-align: center;
 }
 
 .reception-title {
-  position: sticky;
+  position: absolute;
+  font-size: 28vw;
   bottom: 0;
-  left: 0;
+  left: -20px;
+  font-family: var(--font-canela);
+  text-transform: uppercase;
+  -webkit-text-stroke-color: #c3c2c0;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+  opacity: .7;
+}
+
+.reception1, .reception2 {
+  padding-top: 50px;
+  margin: auto;
+}
+
+@media screen and (min-width: 700px) {
+  .reception2 {
+    padding: 0;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .reception-wrapper {
+    padding: 40px;
+  }
+
+  .reception-title {
+    bottom: auto;
+    left: 0;
+    top: 0;
+    font-size: 27vw;
+  }
+
+  .reception h2 {
+    font-size: 18vw;
+    width: 90%;
+  }
 }

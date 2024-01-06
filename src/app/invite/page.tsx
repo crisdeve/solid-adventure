@@ -15,9 +15,9 @@ const photosCollage = [
 
 const weddingInfo = {
   city: 'Cucuta, Co.',
-  weddingPlace: 'Iglesia Sagrado Corazón de Jesús',
+  weddingPlace: 'Inciamos en la Iglesia Sagrado Corazón de Jesús, comparte con nosotros este momento',
   weddingTime: '10:00AM',
-  receptionPlace: 'Restaurante EPICCO',
+  receptionPlace: 'En este día, comparte con nosotros en el Restaurante EPICCO',
   receptionTime: '1:00PM',
 }
 

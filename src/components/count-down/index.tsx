@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import styles from './countDown.module.css'
-import treeSvg from '../../assets/principal-tree-wedding-bg1.svg'
+import treeSvg from '../../assets/principal-tree-wedding-bg2.svg'
 
 type CountDownComponent = {
   date: string, targetMessage: string

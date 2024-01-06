@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
+  position: relative;
 }
 
 .heading {
@@ -29,24 +30,24 @@
 }
 
 .paragraph {
-  padding: 100px 20px;
-  margin: auto;
-  margin-left: 50px;
+  padding: 50px 20px;
+  margin: 50px auto auto 50px;
   max-width: 500px;
   font-size: 18px;
   font-family: var(--font-fg);
   z-index: 1;
 
   @media screen and (min-width: 600px) {
+    padding: 100px 20px;
     margin-left: 100px;
   }
 }
 
 .paragraph span {
   display: block;
-  font-size: 36px;
+  font-size: 57px;
   margin-bottom: 30px;
-  font-family: var(--font-canela);
+  font-weight: 100;
 }
 
 .paragraph p {
@@ -60,11 +61,4 @@
 .heading *:first-child {
   font-size: 50%;
   z-index: 1;
-}
-
-.tree {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: rotateX(-180deg) rotateZ(-125deg) scale(2.0);
 }
