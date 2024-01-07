@@ -1,0 +1,20 @@
+.section {
+  background-color: var(--color-bg-2);
+  padding: 40px;
+  color: var(--color-accent-3);
+}
+
+.section h2 {
+  font-family: var(--font-canela);
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+button.button::after {
+  background-color: var(--color-accent-3);
+}

@@ -39,8 +39,13 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 
-  --color-bg: #f3f2f1;
+  --color-bg-1: #f3f2f1;
+  --color-bg-2: #284135;
   --color-font: #284135;
+  --color-p: #999790;
+  --color-accent-1: #284135;
+  --color-accent-2: #c3c2c0;
+  --color-accent-3: #f3f2f1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,7 +94,7 @@ body {
 }
 
 body {
-  background: var(--color-bg);
+  background: var(--color-bg-1);
   color: var(--color-font);
   font-family: var(--font-inter);
 }

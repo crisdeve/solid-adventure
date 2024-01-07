@@ -1,4 +1,5 @@
 import styles from './information.module.css';
+import button from '../../app/button.module.css';
 
 type info = {
   style?: any,
@@ -28,7 +29,7 @@ export default function Information({
       }
       
       {buttonText && buttonAction && 
-        <button onClick={buttonAction}>
+        <button className={`${button.primary} ${styles.button}`} onClick={buttonAction}>
           {buttonText}
         </button>
       }

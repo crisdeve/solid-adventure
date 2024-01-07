@@ -25,7 +25,7 @@ export default function CountDown ({ date, targetMessage }: CountDownComponent) 
       const seconds = Math.floor((distance % (1000 * 60)) / 1000)
       
       setCountDown(`
-        ${days}d ${hours}h ${minutes}m ${seconds}s
+        ${days}d : ${hours}h : ${minutes}m : ${seconds}s
       `)
 
       if (distance < 0) {
@@ -41,6 +41,7 @@ export default function CountDown ({ date, targetMessage }: CountDownComponent) 
 
   return (
     <section className={styles['count-down']}>
+      <span>Faltan</span>
       <span>{countDown}</span>
       <Image
         className={styles.tree}

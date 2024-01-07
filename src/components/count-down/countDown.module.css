@@ -13,6 +13,12 @@
   font-size: 10vw;
 }
 
+.count-down span:first-child {
+  font-size: 10vw;
+  font-family: var(--font-inter);
+  margin-bottom: 20px;
+}
+
 .count-down img {
   position: absolute;
   left: 0;
