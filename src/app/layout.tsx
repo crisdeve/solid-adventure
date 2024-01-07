@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { canela, inter } from './fonts'
+import { body, titles } from './fonts'
 
 export const metadata: Metadata = {
   title: 'D & C 🤵👰',
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${canela.variable}`}>{children}</body>
+      <body className={`${titles.variable} ${body.variable}`}>{children}</body>
     </html>
   )
 }

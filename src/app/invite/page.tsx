@@ -13,14 +13,6 @@ const photosCollage = [
   collage3
 ]
 
-const weddingInfo = {
-  city: 'Cucuta, Co.',
-  weddingPlace: 'Inciamos en la Iglesia Sagrado Corazón de Jesús, comparte con nosotros este momento',
-  weddingTime: '10:00AM',
-  receptionPlace: 'En este día, comparte con nosotros en el Restaurante EPICCO',
-  receptionTime: '1:00PM',
-}
-
 export default function Invite() {
   return (
     <>
@@ -31,7 +23,7 @@ export default function Invite() {
         targetMessage={'Es hora de alistarse, te esperamos !'}
       />
       <CollageSimple images={photosCollage} />
-      <ReceptionAndWedding {...weddingInfo} />
+      <ReceptionAndWedding />
     </>
   )
 }

@@ -1,12 +1,12 @@
 import localFont from 'next/font/local'
-import { Inter } from 'next/font/google'
+import { Karla } from 'next/font/google'
 
-export const inter = Inter({
+export const body = Karla({
   subsets: ['latin'],
   variable: '--font-inter', 
 })
 
-export const canela = localFont({
+export const titles = localFont({
   variable: '--font-canela',
   src: [
     {
