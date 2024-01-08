@@ -15,6 +15,7 @@
   width: 40%;
   max-width: 550px;
   font-weight: 100;
+  text-align: center;
 }
 
 .reception-title {
@@ -33,13 +34,6 @@
 .reception1, .reception2 {
   padding-top: 50px;
   margin: auto;
-}
-
-@media screen and (min-width: 700px) {
-  .reception2 {
-    padding: 0;
-    margin-right: 20%;
-  }
 }
 
 @media screen and (max-width: 700px) {

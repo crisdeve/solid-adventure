@@ -1,0 +1,10 @@
+.wrapper {
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+button.button::after {
+  background-color: var(--color-accent-3);
+}

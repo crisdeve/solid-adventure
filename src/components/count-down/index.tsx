@@ -6,10 +6,12 @@ import styles from './countDown.module.css'
 import treeSvg from '../../assets/principal-tree-wedding-bg2.svg'
 
 type CountDownComponent = {
-  date: string, targetMessage: string
+  date: string,
+  dateString: string,
+  targetMessage: string
 }
 
-export default function CountDown ({ date, targetMessage }: CountDownComponent) {
+export default function CountDown ({ date, dateString, targetMessage }: CountDownComponent) {
   const [countDown, setCountDown] = useState('0d 0h 0m 0s')
 
   useEffect(() => {
@@ -41,8 +43,9 @@ export default function CountDown ({ date, targetMessage }: CountDownComponent) 
 
   return (
     <section className={styles['count-down']}>
-      <span>Faltan</span>
-      <span>{countDown}</span>
+      <span className={styles.date}>{dateString}</span>
+      <span className={styles.simple}>Faltan:</span>
+      <span className={styles.count}>{countDown}</span>
       <Image
         className={styles.tree}
         src={treeSvg}

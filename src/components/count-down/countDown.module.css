@@ -10,13 +10,21 @@
 }
 
 .count-down span {
-  font-size: 10vw;
+  display: block;
+  font-size: 8vw;
 }
 
-.count-down span:first-child {
-  font-size: 10vw;
+.count-down span.date {
+  font-size: 6vw;
+}
+
+.simple {
   font-family: var(--font-inter);
-  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.count-down span:not(:first-child) {
+  margin-top: 10px;
 }
 
 .count-down img {
@@ -36,7 +44,7 @@
 
 @media screen and (max-width: 700px) {
   .count-down {
-    min-height: 30vh;
+    min-height: 40vh;
   }
 
   .count-down img {

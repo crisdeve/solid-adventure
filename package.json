@@ -6,12 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ngrok": "ngrok http 3000"
   },
   "dependencies": {
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^4.12.0",
     "swiper": "^11.0.5"
   },
   "devDependencies": {

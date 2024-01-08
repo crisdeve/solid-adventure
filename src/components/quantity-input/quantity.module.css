@@ -1,0 +1,46 @@
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.input {
+  font-size: 20px;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  -moz-appearance: textfield;
+  appearance: none;
+  color: inherit;
+  width: 20px;
+  margin: auto 20px;
+  text-align: center;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  width: 15px;
+  cursor: pointer;
+}
+
+.minus {
+  left: 0;
+}
+
+.plus {
+  right: 0;
+}

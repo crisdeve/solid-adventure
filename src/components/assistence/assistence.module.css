@@ -11,10 +11,6 @@
   margin-bottom: 20px;
 }
 
-.button {
-  margin-top: 40px;
-}
-
-button.button::after {
-  background-color: var(--color-accent-3);
+.section p {
+  line-height: 200%;
 }

@@ -1,0 +1,13 @@
+.playlist {
+  border-radius: 12px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.button svg {
+  margin-left: 10px;
+}

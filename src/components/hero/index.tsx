@@ -9,7 +9,7 @@ export default function Hero({ title }: { title: string }) {
           {title}
         </span>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempora ipsam, illo rerum ut accusantium dolore tempore, est fugit ex qui sequi aliquid libero facilis hic error totam porro. Saepe.
+          Tras 6 años de risas, complicidades y amor, decidimos dar el siguiente gran paso. ¡Estamos emocionados de invitarlos a celebrar nuestra unión en este día tan especial! Acompáñanos mientras comenzamos este nuevo capítulo juntos. Su presencia hará este momento aún más memorable.
         </p>
       </div>
       <h1 className={styles.heading}>

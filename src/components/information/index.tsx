@@ -7,7 +7,8 @@ type info = {
   paragraph1: string,
   paragraph2?: string,
   buttonText?: string,
-  buttonAction?: any
+  buttonAction?: any,
+  customComponent?: any,
 }
 
 export default function Information({
@@ -16,22 +17,27 @@ export default function Information({
   paragraph2,
   buttonText,
   buttonAction,
+  customComponent,
   style
 }: info) {
   return (
     <div className={`${styles.information} ${style}`}>
       <span className={styles.title}>{ title }</span>
       
-      <span className={styles.paragraph1}>{ paragraph1 }</span>
-      
       {paragraph2 && 
         <span className={styles.paragraph2}>{ paragraph2 }</span>
       }
+
+      <span className={styles.paragraph1}>{ paragraph1 }</span>
       
       {buttonText && buttonAction && 
         <button className={`${button.primary} ${styles.button}`} onClick={buttonAction}>
           {buttonText}
         </button>
+      }
+
+      {customComponent &&
+        customComponent
       }
     </div>
   )
