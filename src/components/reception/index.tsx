@@ -22,11 +22,11 @@ const weddingInfo = {
 export default function ReceptionAndWedding() {
   
   const onClickMapCeremony = () => {
-    window.open(weddingInfo.weddingMaps);
+    location.href = weddingInfo.weddingMaps;
   }
 
   const onClickMapReception = () => {
-    window.open(weddingInfo.receptionMaps);
+    location.href = weddingInfo.receptionMaps;
   }
 
   return (
