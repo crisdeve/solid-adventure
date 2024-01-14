@@ -1,19 +1,13 @@
-import localFont from 'next/font/local'
-import { Karla } from 'next/font/google'
+/* import localFont from 'next/font/local' */
+import { Karla, Libre_Baskerville } from 'next/font/google'
 
 export const body = Karla({
   subsets: ['latin'],
   variable: '--font-inter', 
 })
 
-export const titles = localFont({
+export const titles = Libre_Baskerville({
+  subsets: ['latin'],
+  weight: '700',
   variable: '--font-canela',
-  src: [
-    {
-      path: '../assets/Canela-Bold.woff2',
-    },
-    {
-      path: '../assets/Canela-Medium.woff2',
-    },
-  ],
 })

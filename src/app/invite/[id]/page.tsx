@@ -1,5 +1,6 @@
 'use client'
 import { useParams } from 'next/navigation'
+import styles from './invite.module.css'
 
 import CollageSimple from "@/components/collage-simple";
 import CountDown from "@/components/count-down";
@@ -12,6 +13,9 @@ import ReceptionAndWedding from "@/components/reception";
 import Assistence from "@/components/assistence";
 import { useState } from 'react';
 import { DB } from '@/assets/DB';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import NotSupport from '@/components/not-support';
+import AsistenceButton from '@/components/asistence-button';
 
 const photosCollage = [
   collage1,
@@ -19,14 +23,24 @@ const photosCollage = [
   collage3
 ]
 
+type invite = {
+  "id": number,
+  "titulo": string,
+  "n_personas": number
+}
+
 export default function Invite() {
-  const { id } = useParams()
+  const { id } = useParams();
   const [data]: any = useState(
-    DB.find((item) => item.id === id)
+    DB.find((item: invite) => item.id === Number(id))
   )
 
+  const matches = useMediaQuery('(max-width:600px)');
+
+  if (!matches) return <NotSupport />
+
   return (
-    <>
+    <div className={styles.invite}>
       <Header />
       <Hero title={data.titulo} />
       <CountDown
@@ -36,7 +50,10 @@ export default function Invite() {
       />
       <CollageSimple images={photosCollage} />
       <ReceptionAndWedding />
-      <Assistence nHost={data['n_personas']} />
-    </>
+      <Assistence />
+      <div className={styles.stickyButton}>
+        <AsistenceButton nHost={data['n_personas']} />
+      </div>
+    </div>
   )
 }

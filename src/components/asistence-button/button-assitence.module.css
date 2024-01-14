@@ -1,5 +1,4 @@
 .wrapper {
-  margin-top: 40px;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -7,4 +6,11 @@
 
 button.button::after {
   background-color: var(--color-accent-3);
+}
+
+.ads {
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: block;
+  text-align: center;
 }

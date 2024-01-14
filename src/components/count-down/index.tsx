@@ -1,9 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 import { useEffect, useState } from "react"
-import Image from "next/image"
 import styles from './countDown.module.css'
-import treeSvg from '../../assets/principal-tree-wedding-bg2.svg'
+import { IoCalendarOutline } from "react-icons/io5"
 
 type CountDownComponent = {
   date: string,
@@ -43,16 +42,12 @@ export default function CountDown ({ date, dateString, targetMessage }: CountDow
 
   return (
     <section className={styles['count-down']}>
-      <span className={styles.date}>{dateString}</span>
+      <span className={styles.date}>
+        <IoCalendarOutline />
+        {dateString}
+      </span>
       <span className={styles.simple}>Faltan:</span>
       <span className={styles.count}>{countDown}</span>
-      <Image
-        className={styles.tree}
-        src={treeSvg}
-        alt="Picture of the author"
-        width={300}
-        height={300}
-      />
     </section>
   )
 }

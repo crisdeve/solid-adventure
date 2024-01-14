@@ -1,4 +1,4 @@
-export const DB = [
+[
  {
   "id": 1,
   "titulo": "Ana y Alicia Wilches",

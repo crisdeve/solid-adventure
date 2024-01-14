@@ -17,22 +17,25 @@ export default function AsistenceButton({ nHost }: { nHost: number }) {
   }
 
   return (
-    <div className={styles.wrapper}>
-      <CustomNumberInput
-        min={0}
-        max={nHost}
-        step={1}
-        count={confirmed}
-        setCount={setConfirmed}
-      />
+    <div>
+      <span className={styles.ads}>Válido para {nHost} personas. Confirma tu asistencia antes del 28 de enero.</span>
+      <div className={styles.wrapper}>
+        <CustomNumberInput
+          min={0}
+          max={nHost}
+          step={1}
+          count={confirmed}
+          setCount={setConfirmed}
+        />
 
-      <button
-        onClick={onClickConfirm}
-        className={`${button.primary} ${styles.button}`}
-      >
-        Confirmar asistencia
-        <FiUserCheck />
-      </button>
+        <button
+          onClick={onClickConfirm}
+          className={`${button.primary} ${styles.button}`}
+        >
+          Confirmar
+          <FiUserCheck />
+        </button>
+      </div>
     </div>
   )
 }
