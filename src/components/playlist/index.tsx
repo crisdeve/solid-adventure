@@ -6,7 +6,7 @@ export default function SpotifyPlaylist() {
   const url = 'https://open.spotify.com/playlist/7ENnnwYlu8kHaEXcWD0C30?si=b1520d6af49b49bc&pt=10c72f17ed09ac7a67328c87023c3192'
   
   const addPlayList = () => {
-    window.open(url);
+    location.href = url;
   }
 
   return (
