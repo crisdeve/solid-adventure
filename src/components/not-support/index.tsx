@@ -5,14 +5,14 @@ export default function NotSupport() {
   
   return (
     <div className={styles.wrapper}>
-      <h1>D & G ❤️</h1>
+      <h1>D & C ❤️</h1>
       
       <div className={styles.message}>
         <p>
           <MdOutlineImageNotSupported />
-          {"We don't have support to this device type."}
+          Nuestra no soporta este tamaño de pantallas.
         </p>
-        <p>Please, Try from your cellphone</p>
+        <p>¡Intenta con tu celular!</p>
       </div>
     </div>
   )

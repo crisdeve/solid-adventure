@@ -5,11 +5,11 @@ import styles from './reception.module.css';
 
 const weddingInfo = {
   city: 'Cúcuta',
-  weddingPlace: 'Les extendemos una cálida invitación a unirse a nosotros en la solemnidad y amor de nuestra ceremonia en la Eucaristia. Esperamos compartir este sagrado momento con ustedes y recibir sus bendiciones en nuestro camino juntos.',
+  weddingPlace: 'Les extendemos una cálida invitación a unirse a nosotros en la solemnidad y amor de nuestra ceremonia en la Eucaristía. Esperamos compartir este sagrado momento con ustedes y recibir sus bendiciones en nuestro camino juntos.',
   weddingAddress: 'Parroquia Sagrado Corazón de Jesús, Calle 9 #10E-11',
   weddingMaps: 'https://maps.app.goo.gl/9jesJUEU8zEvM1Hj9?g_st=iw',
   weddingTime: '10:00AM',
-  receptionPlace: 'Con la bendición de Dios en nuestros corazones, nos gustaria recibirlos para celebrar juntos este día especial con buena comida, risas y gratitud por el amor que nos rodea.',
+  receptionPlace: 'Con la bendición de Dios en nuestros corazones, nos gustaría recibirlos para celebrar juntos este día especial con buena comida, risas y gratitud por el amor que nos rodea.',
   receptionAddress: 'Restaurante EPICCO, Calle 17 #2E-41',
   receptionMaps: 'https://maps.app.goo.gl/rvqi5ux4BBiRgE5t6?g_st=iw',
   receptionTime: '12:00PM',
