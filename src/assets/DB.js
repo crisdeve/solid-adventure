@@ -61,7 +61,7 @@ export const DB = [
  },
  {
   "id": 13,
-  "titulo": "Juan Caceres y Pola",
+  "titulo": "Juan Cáceres y Pola",
   "n_personas": 2
  },
  {
@@ -71,32 +71,32 @@ export const DB = [
  },
  {
   "id": 15,
-  "titulo": "Flia Velasco Caceres",
+  "titulo": "Flia Velasco Cáceres",
   "n_personas": 4
  },
  {
   "id": 16,
-  "titulo": "Flia Marin Caceres",
+  "titulo": "Flia Marin Cáceres",
   "n_personas": 4
  },
  {
   "id": 17,
-  "titulo": "Flia Caceres Prado",
+  "titulo": "Flia Cáceres Prado",
   "n_personas": 3
  },
  {
   "id": 18,
-  "titulo": "Flia Caceres Toloza",
+  "titulo": "Flia Cáceres Toloza",
   "n_personas": 3
  },
  {
   "id": 19,
-  "titulo": "Hery Caceres y Esposa",
+  "titulo": "Hery Cáceres y Esposa",
   "n_personas": 2
  },
  {
   "id": 20,
-  "titulo": "Danny Caceres",
+  "titulo": "Dany Cáceres",
   "n_personas": 1
  },
  {
