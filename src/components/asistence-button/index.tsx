@@ -18,7 +18,7 @@ export default function AsistenceButton({ nHost }: { nHost: number }) {
 
   return (
     <div>
-      <span className={styles.ads}>Válido para {nHost} personas. Confirma tu asistencia antes del 28 de enero.</span>
+      <span className={styles.ads}>Válido para {nHost} personas. Confirma tu asistencia antes del 21 de febrero.</span>
       <div className={styles.wrapper}>
         <CustomNumberInput
           min={0}

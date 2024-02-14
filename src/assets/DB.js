@@ -156,7 +156,7 @@ export const DB = [
  },
  {
   "id": 32,
-  "titulo": "Alfonso y Sol",
+  "titulo": "Alfonso y Solandy",
   "n_personas":  2
  }
 ]
