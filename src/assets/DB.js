@@ -153,5 +153,10 @@ export const DB = [
   "id": 31,
   "titulo": "Ronald Fernandez",
   "n_personas":  1
+ },
+ {
+  "id": 32,
+  "titulo": "Alfonso y Sol",
+  "n_personas":  2
  }
 ]
