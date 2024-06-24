@@ -1,22 +1,12 @@
 import styles from './hero.module.css';
-import TreeImage from '../tree-image';
 
-export default function Hero({ title }: { title: string }) {
+export default function Hero() {
   return (
     <section className={styles.hero}>
-      <div className={styles.paragraph}>
-        <span>
-          {title}
-        </span>
-        <p>
-        Tras 6 años de risas, complicidades y amor, decidimos dar el siguiente gran paso. ¡Estamos emocionados de invitarlos a celebrar nuestra unión en este día tan especial! Acompáñennos mientras comenzamos este nuevo capítulo juntos. Su presencia hará este momento aún más memorable.
-        </p>
-      </div>
+      <p>Mariana</p>
       <h1 className={styles.heading}>
-        <span>Nuestra</span>
-        <span>Boda.</span>
+        Mis 15 años
       </h1>
-      <TreeImage />
     </section>
   )
 }

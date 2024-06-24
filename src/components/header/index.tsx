@@ -1,19 +1,19 @@
+"use client"
+import { useEffect, useRef } from 'react';
 import styles from './header.module.css';
+import song from '@/assets/lover.mp3';
 
 export default function Header() {
+  const vidRef: any = useRef();
+
+  useEffect(() => { vidRef.current?.play() }, []);
+  
   return (
     <header className={styles.header}>
-      <div className={styles.date}>
-        <span>24</span>
-        <span>/</span>
-        <span>02</span>
-      </div>
-
-      <div className={styles.logo}>
-        <span>D</span>
-        <span>/</span>
-        <span>C</span>
-      </div>
+      <audio controls autoPlay={true} loop ref={vidRef}>
+        <source src={song} type="audio/mpeg"/>
+        Your browser does not support the audio element.
+      </audio>
     </header>
   )
 }

@@ -17,7 +17,7 @@
 }
 
 span.date {
-  font-size: 22px;
+  font-size: 35px;
   display: flex;
   align-items: center;
 }
@@ -28,12 +28,14 @@ span.date {
 
 span.simple {
   font-weight: 100;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .count {
   font-size: 35px;
   font-family: var(--font-canela);
+  text-align: center;
+  padding: 0 20px;
 }
 
 .count-down img {

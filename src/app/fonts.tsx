@@ -1,13 +1,14 @@
 /* import localFont from 'next/font/local' */
-import { Karla, Libre_Baskerville } from 'next/font/google'
+import { Amatic_SC as Body, Pacifico as Title } from 'next/font/google'
 
-export const body = Karla({
+export const body = Body({
   subsets: ['latin'],
+  weight: '400',
   variable: '--font-inter', 
 })
 
-export const titles = Libre_Baskerville({
+export const titles = Title({
   subsets: ['latin'],
-  weight: '700',
+  weight: '400',
   variable: '--font-canela',
 })

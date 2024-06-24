@@ -1,7 +1,8 @@
 .primary {
   background-color: transparent;
   border-style: none;
-  font-size: 18px;
+  font-size: var(--font-size-s);
+  font-family: var(--font-canela);
   padding-bottom: 3px;
   position: relative;
   color: inherit;

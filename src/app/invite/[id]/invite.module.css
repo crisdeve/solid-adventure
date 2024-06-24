@@ -1,6 +1,10 @@
 .invite {
   display: flex;
   flex-direction: column;
+  background-image: url('../../../assets/quinces-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
 }
 
 .stickyButton {

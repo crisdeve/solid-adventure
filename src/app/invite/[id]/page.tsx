@@ -4,14 +4,15 @@ import CollageSimple from "@/components/collage-simple";
 import CountDown from "@/components/count-down";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import collage1 from '@/assets/collage/collage-1.jpeg';
-import collage2 from '@/assets/collage/collage-2.jpeg';
-import collage3 from '@/assets/collage/collage-3.jpeg';
+import collage1 from '@/assets/collage/maris-1.jpeg';
+import collage2 from '@/assets/collage/maris-2.jpeg';
+import collage3 from '@/assets/collage/maris-3.jpeg';
 import ReceptionAndWedding from "@/components/reception";
 import Assistence from "@/components/assistence";
 import { DB } from '@/assets/DB';
 import AsistenceButton from '@/components/asistence-button';
 import MediaQuerySupport from '@/components/media-query-support';
+import SkyStars from '@/components/sky';
 
 const photosCollage = [
   collage1,
@@ -37,12 +38,12 @@ export default function Invite({ params }: { params: { id: string } }) {
   
   return (
     <MediaQuerySupport>
-      <div className={styles.invite}>
+      <SkyStars styles={styles.invite}>
         <Header />
-        <Hero title={data.titulo} />
+        <Hero />
         <CountDown
-          date={"Feb 24, 2024 10:00:00"}
-          dateString={"24 de Febrero, 2024"}
+          date={"Aug 18, 2024 20:00:00"}
+          dateString={"18 de Agosto, 2024"}
           targetMessage={'Es hora de alistarse, te esperamos !'}
         />
         <CollageSimple images={photosCollage} />
@@ -51,7 +52,7 @@ export default function Invite({ params }: { params: { id: string } }) {
         <div className={styles.stickyButton}>
           <AsistenceButton nHost={data['n_personas']} />
         </div>
-      </div>
+      </SkyStars>
     </MediaQuerySupport>
   )
 }

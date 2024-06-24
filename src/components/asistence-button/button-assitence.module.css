@@ -10,7 +10,7 @@ button.button::after {
 
 .ads {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: var(--font-size-s);
   display: block;
   text-align: center;
 }
