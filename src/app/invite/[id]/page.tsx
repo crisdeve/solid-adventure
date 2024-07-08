@@ -4,9 +4,9 @@ import CollageSimple from "@/components/collage-simple";
 import CountDown from "@/components/count-down";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import collage1 from '@/assets/collage/maris-1.jpeg';
-import collage2 from '@/assets/collage/maris-2.jpeg';
-import collage3 from '@/assets/collage/maris-3.jpeg';
+import collage1 from '@/assets/collage/maris-1.jpg';
+import collage2 from '@/assets/collage/maris-2.jpg';
+import collage3 from '@/assets/collage/maris-3.jpg';
 import ReceptionAndWedding from "@/components/reception";
 import Assistence from "@/components/assistence";
 import { DB } from '@/assets/DB';
@@ -41,12 +41,12 @@ export default function Invite({ params }: { params: { id: string } }) {
       <SkyStars styles={styles.invite}>
         <Header />
         <Hero />
+        <CollageSimple images={photosCollage} />
         <CountDown
           date={"Aug 18, 2024 20:00:00"}
           dateString={"18 de Agosto, 2024"}
           targetMessage={'Es hora de alistarse, te esperamos !'}
         />
-        <CollageSimple images={photosCollage} />
         <ReceptionAndWedding />
         <Assistence />
         <div className={styles.stickyButton}>

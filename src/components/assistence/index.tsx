@@ -4,7 +4,7 @@ export default function Assistence() {
   return (
     <section className={styles.section}>
       <h2>Confirmar asistencia</h2>
-      <p>¡Será un honor contar con tu presencia en nuestra boda! Por favor, confirma tu asistencia antes del 21 de febrero. Si no recibimos tu confirmación, entenderemos que no podrás unirte a nosotros en este día tan especial. Esperamos celebrar juntos y hacer de este momento algo aún más especial con tu compañía.</p>
+      <p>Por favor, confírmanos tu asistencia antes del 1 agosto. Puedes hacerlo respondiendo a este mensaje o llamando al 310-306-6840. Cada "sí" añade un destello más de alegría a la sonrisa de nuestra quinceañera. ¡Esperamos con ilusión poder contar contigo en esta noche mágica!</p>
     </section>
   )
 }

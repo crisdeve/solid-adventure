@@ -3,8 +3,8 @@ import './globals.css'
 import { body, titles } from './fonts'
 
 export const metadata: Metadata = {
-  title: 'Diana & Cristian ❤️',
-  description: 'Bienvenidos a nuestra boda !',
+  title: 'Mis 15 años ❤️',
+  description: 'Bienvenidos a mis quinces !',
 }
 
 export default function RootLayout({
@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${titles.variable} ${body.variable}`}>{children}</body>
+      <body className={`${titles.variable} ${body.variable}`}>
+        {children}
+      </body>
     </html>
   )
 }

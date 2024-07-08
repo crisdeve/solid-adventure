@@ -1,4 +1,5 @@
 'use client'
+import { useEffect, useRef } from 'react';
 import './sky.css'
 
 type Props = {
@@ -7,8 +8,25 @@ type Props = {
 };
 
 export default function SkyStars({ children, styles }: Props) {
+  const scrollable = useRef(null)
+
+  useEffect(() => {
+    (
+      async () => {
+        const locomotiveScroll = (await import('locomotive-scroll')).default
+
+        new locomotiveScroll({
+          el: document.documentElement,
+          smooth: true,
+          smoothMobile: false,
+          resetNativeScroll: true
+        });
+      }
+    )()
+  }, [])
+
   return (
-    <main className={styles}>
+    <main ref={scrollable} data-scroll-container className={styles}>
       <div className="stars"></div>
       <div className="stars2"></div>
       <div className="stars3"></div>

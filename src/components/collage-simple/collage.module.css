@@ -1,20 +1,32 @@
-.collage-simple {
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
   display: flex;
-  align-items: center;
+  left: 0;
+  background: var(--text-color);
+  color: var(--bg-color);
 }
 
-.collage img {
+.scrollable {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 10vw;
+}
+
+.scrollable > * {
+  min-width: 60vw;
+  padding: 0 5vw;
+}
+
+.scrollable img {
   width: 33.33%;
+  height: 80vh;
   position: relative;
   object-fit: cover;
 }
 
 .collage img:nth-child(2) {
   object-position: 70%;
-}
-
-@media screen and (max-width: 700px) {
-  .collage img {
-    height: 350px;
-  }
 }

@@ -13,7 +13,7 @@ export default function SpotifyPlaylist() {
     <div className={styles.wrapper}>
       <iframe
         className={styles.playlist}
-        src="https://open.spotify.com/embed/playlist/7ENnnwYlu8kHaEXcWD0C30?utm_source=generator&theme=0"
+        src="https://open.spotify.com/embed/playlist/6LYKzwPpryvo3zIEO03rIr?utm_source=generator&theme=0"
         width="100%"
         height="152"
         frameBorder="0"

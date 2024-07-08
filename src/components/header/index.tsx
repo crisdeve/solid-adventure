@@ -6,7 +6,7 @@ import song from '@/assets/lover.mp3';
 export default function Header() {
   const vidRef: any = useRef();
 
-  useEffect(() => { vidRef.current?.play() }, []);
+  /* useEffect(() => { vidRef.current?.play() }, []); */
   
   return (
     <header className={styles.header}>

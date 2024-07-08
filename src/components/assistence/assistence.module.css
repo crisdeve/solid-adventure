@@ -7,7 +7,7 @@
 .section h2 {
   font-family: var(--font-canela);
   font-weight: 100;
-  font-size: 30px;
+  font-size: var(--font-size-l);
   margin-bottom: 20px;
 }
 
