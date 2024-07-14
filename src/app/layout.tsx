@@ -3,7 +3,7 @@ import './globals.css'
 import { body, titles } from './fonts'
 
 export const metadata: Metadata = {
-  title: 'Mis 15 años ❤️',
+  title: 'Mis 15 años ✨',
   description: 'Bienvenidos a mis quinces !',
 }
 

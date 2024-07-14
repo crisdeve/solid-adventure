@@ -44,11 +44,11 @@ export default function Invite({ params }: { params: { id: string } }) {
         <CollageSimple images={photosCollage} />
         <CountDown
           date={"Aug 18, 2024 20:00:00"}
-          dateString={"18 de Agosto, 2024"}
+          dateString={"17 de Agosto, 2024"}
           targetMessage={'Es hora de alistarse, te esperamos !'}
         />
-        <ReceptionAndWedding />
-        <Assistence />
+        <ReceptionAndWedding id={data.id} />
+        <Assistence invites={data.titulo} />
         <div className={styles.stickyButton}>
           <AsistenceButton nHost={data['n_personas']} />
         </div>

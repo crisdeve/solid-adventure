@@ -13,12 +13,12 @@ export default function AsistenceButton({ nHost }: { nHost: number }) {
       %C2%A1Confirmamos%20nuestra%20asistencia%20con%20alegr%C3%ADa!%20Seremos%20${confirmed}%20celebrando%20junto%20a%20ustedes%20este%20d%C3%ADa%20tan%20especial.%20Gracias%20por%20incluirnos%20en%20este%20hermoso%20cap%C3%ADtulo%20de%20su%20historia%20de%20amor.
     `;
 
-    window.open(`https://wa.me/573142661371?text=${message}`);
+    window.open(`https://wa.me/573103066840?text=${message}`);
   }
 
   return (
     <div>
-      <span className={styles.ads}>Válido para {nHost} personas. Confirma tu asistencia antes del 21 de febrero.</span>
+      <span className={styles.ads}>Válido para {nHost} personas. Confirma tu asistencia antes del 1 de Agosto.</span>
       <div className={styles.wrapper}>
         <CustomNumberInput
           min={0}

@@ -8,3 +8,7 @@
   justify-content: center;
   opacity: 0.5;
 }
+
+.header iframe {
+  display: none;
+}
