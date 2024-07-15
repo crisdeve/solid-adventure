@@ -18,7 +18,6 @@ export default function SkyStars({ children, styles }: Props) {
         new locomotiveScroll({
           el: document.documentElement,
           smooth: true,
-          smoothMobile: false,
           resetNativeScroll: true
         });
       }
