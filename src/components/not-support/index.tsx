@@ -5,7 +5,7 @@ export default function NotSupport() {
   
   return (
     <div className={styles.wrapper}>
-      <h1>D & C ❤️</h1>
+      <h1>Mariana 15 años ✨</h1>
       
       <div className={styles.message}>
         <p>
