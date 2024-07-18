@@ -4,7 +4,7 @@ import SpotifyPlaylist from '../playlist';
 import styles from './reception.module.css';
 
 const weddingInfo = {
-  city: 'Rafael Y. Velasco &  Linda R. Caćeres',
+  city: 'Yair Velasco & Linda Caćeres',
   weddingPlace: 'Únanse a nosotros en una sagrada eucaristía donde, envueltos en el amor de Dios y la calidez de su compañía, celebraremos el dulce paso de niña a mujer.',
   weddingAddress: 'Parroquia Santa Maria Madre De Dios, Barrio Arboleda',
   weddingMaps: 'https://g.co/kgs/5tQK9hy',
@@ -14,7 +14,7 @@ const weddingInfo = {
   receptionMaps: 'https://g.co/kgs/HfcMZU7',
   receptionTime: '18 de Agosto, 7:00PM',
   dressCode: '"Noche Estrellada" - vístete para brillar como las estrellas que adornarán nuestro cielo esa noche especial. Tu presencia será la constelación perfecta para hacer de esta celebración un universo de felicidad.',
-  musicRecommendation: '¡Ey, gente! 🎵✨ Necesitamos armar la playlist más épica para nuestra fiesta. ¿Cuál es ese temazo que no puede faltar? Tiren sus ideas y hagamos que esta celebración sea inolvidable. ¡A darle ritmo a la noche! 🕺💃🎉',
+  musicRecommendation: '¡Ey, familia y amigos! 🎵✨ Necesitamos armar la playlist más épica para nuestra fiesta. ¿Cuál es ese tema que no puede faltar? Tiren sus ideas y hagamos que esta celebración sea inolvidable. ¡A darle ritmo a la noche! 🕺💃🎉',
   giftMessage: '¡Su amor y buenos deseos son el mejor regalo que podríamos recibir!',
   giftMode: '¡Lluvia de sobres!',
 }
@@ -47,7 +47,7 @@ export default function ReceptionAndWedding({ id }: { id: number }) {
           style={styles.reception1}
           title={weddingInfo.receptionTime}
           paragraph1={weddingInfo.receptionPlace}
-          paragraph2={id === 1 ? 'Condominio Piemonte - Salón Social' : weddingInfo.receptionAddress}
+          paragraph2={id === 0 ? 'Condominio Piemonte - Salón Social' : weddingInfo.receptionAddress}
           buttonText={'Cómo llegar'}
           buttonAction={onClickMapReception}
         />

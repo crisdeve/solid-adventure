@@ -1,5 +1,10 @@
 export const DB = [
   {
+    "id": 0,
+    "titulo": "Cristian y Diana",
+    "n_personas": 2
+  },
+  {
     "id": 1,
     "titulo": "Isabel Y Sofia",
     "n_personas": 2
