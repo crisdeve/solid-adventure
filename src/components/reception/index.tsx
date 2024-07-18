@@ -4,17 +4,17 @@ import SpotifyPlaylist from '../playlist';
 import styles from './reception.module.css';
 
 const weddingInfo = {
-  city: 'Te esperamos !',
-  weddingPlace: 'Unos dias antes, únanse a nosotros en una sagrada eucaristía donde, envueltos en el amor de Dios y la calidez de su compañía, celebraremos el dulce paso de niña a mujer.',
+  city: 'Rafael Y. Velasco &  Linda R. Caćeres',
+  weddingPlace: 'Únanse a nosotros en una sagrada eucaristía donde, envueltos en el amor de Dios y la calidez de su compañía, celebraremos el dulce paso de niña a mujer.',
   weddingAddress: 'Parroquia Santa Maria Madre De Dios, Barrio Arboleda',
   weddingMaps: 'https://g.co/kgs/5tQK9hy',
-  weddingTime: '6 de Agosto, 3:00PM',
-  receptionPlace: '¡La noche se iluminará con estrellas y sueños cuando nuestra querida [Nombre] celebre sus espléndidos quince años! Te invitamos a ser parte de este momento mágico donde la niñez se despide con una sonrisa y la juventud llega bailando!',
+  weddingTime: '6 de Agosto, 7:00PM',
+  receptionPlace: '¡La noche se iluminará con estrellas y sueños cuando nuestra querida Mariana celebre sus espléndidos quince años! Te invitamos a ser parte de este momento mágico donde la niñez se despide con una sonrisa y la juventud llega bailando!',
   receptionAddress: 'Tennis Golf Club, Salón Brisas del Pamplonita',
   receptionMaps: 'https://g.co/kgs/HfcMZU7',
   receptionTime: '18 de Agosto, 7:00PM',
   dressCode: '"Noche Estrellada" - vístete para brillar como las estrellas que adornarán nuestro cielo esa noche especial. Tu presencia será la constelación perfecta para hacer de esta celebración un universo de felicidad.',
-  musicRecommendation: '¡Queridos amigos y familia! Su buen gusto musical es invaluable. Ayúdennos a crear la banda sonora perfecta para nuestro día especial en esta lista de Spotify. Cuál es esa canción que no puede faltar en nuestra celebración? ¡Esperamos sus sugerencias para llenar nuestro día de ritmo y alegría!',
+  musicRecommendation: '¡Ey, gente! 🎵✨ Necesitamos armar la playlist más épica para nuestra fiesta. ¿Cuál es ese temazo que no puede faltar? Tiren sus ideas y hagamos que esta celebración sea inolvidable. ¡A darle ritmo a la noche! 🕺💃🎉',
   giftMessage: '¡Su amor y buenos deseos son el mejor regalo que podríamos recibir!',
   giftMode: '¡Lluvia de sobres!',
 }

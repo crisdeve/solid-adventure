@@ -44,7 +44,7 @@ export default function Invite({ params }: { params: { id: string } }) {
         <CollageSimple images={photosCollage} />
         <CountDown
           date={"Aug 18, 2024 20:00:00"}
-          dateString={"17 de Agosto, 2024"}
+          dateString={"18 de Agosto, 2024"}
           targetMessage={'Es hora de alistarse, te esperamos !'}
         />
         <ReceptionAndWedding id={data.id} />

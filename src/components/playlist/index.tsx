@@ -3,7 +3,7 @@ import { PiMusicNotesPlus } from "react-icons/pi";
 import button from '../../app/button.module.css';
 
 export default function SpotifyPlaylist() {
-  const url = 'https://open.spotify.com/playlist/7ENnnwYlu8kHaEXcWD0C30?si=9f1c272a90574f5a&pt=acd4a4000fe75093c2ad2bb722146b51'
+  const url = 'https://open.spotify.com/playlist/6LYKzwPpryvo3zIEO03rIr?si=4453fa6858ef4520&pt=413c6fe4d1c353973e4718b3205e03b3'
   
   const addPlayList = () => {
     location.href = url;

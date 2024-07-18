@@ -30,8 +30,7 @@ export default function AsistenceButton({ nHost }: { nHost: number }) {
 
         <button
           onClick={onClickConfirm}
-          className={`${button.primary} ${styles.button}`}
-        >
+          className={`${button.primary} ${styles.button}`}>
           Confirmar
           <FiUserCheck />
         </button>
