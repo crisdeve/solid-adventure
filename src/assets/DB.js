@@ -258,5 +258,15 @@ export const DB = [
     "id": 51,
     "titulo": "Orlando",
     "n_personas": 1
+   },
+   {
+    "id": 52,
+    "titulo": "Juan Carlos",
+    "n_personas": 1
+   },
+   {
+    "id": 53,
+    "titulo": "Wilmer y Angelica",
+    "n_personas": 2
    }
 ]
